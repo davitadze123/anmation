@@ -1,0 +1,112 @@
+{
+	margin: 0;
+	padding: 0;
+
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/hqdefault.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-x: hidden;
+}
+
+
+.back-wheel{
+	left: 420px;
+	margin: 50px;
+	bottom: 300px;
+	height: 110px;
+	width: 120px;
+	position: absolute;
+	animation-name: back-wheel;
+    animation-duration: 1.8s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes back-wheel {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+}
+.box{
+	left: 470px;
+	margin: 50px;
+	bottom: 30px;
+	height: 70px;
+	width: 90px;
+	position: absolute;
+	animation-name: box;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes box {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+}
+
+.second{
+	left: 20px;
+	margin: 40px;
+	bottom: 400px;
+	height: 70px;
+	width: 110px;
+	position: absolute;
+	animation-name: second;
+    animation-duration: 1.8s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes second {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
